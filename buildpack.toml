@@ -18,6 +18,15 @@ uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.pip/org
 version = "0.0.24"
 
 [[metadata.dependencies]]
+id = "org.cloudfoundry.pipenv"
+sha256 = "ef655540c6165828ed6d4a70afd8ea4e1ea99fb6641eb8864616345d9ef6a82b"
+source = "https://github.com/cloudfoundry/pipenv-cnb/archive/v0.0.15.tar.gz"
+source_sha256 = "2cdb50490f6cb165aa61689c59c563198162f71ebce78735c1fadd559654121e"
+stacks = ["org.cloudfoundry.stacks.cflinuxfs3","io.buildpacks.stacks.bionic"]
+uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.pipenv/org.cloudfoundry.pipenv-0.0.15-any-stack-ef655540.tgz"
+version = "0.0.15"
+
+[[metadata.dependencies]]
 id = "org.cloudfoundry.python-runtime"
 sha256 = "42312675c44683649c8069a005d3b33731af814df6e686ac8e5945fa98bbca60"
 source = "https://github.com/cloudfoundry/python-runtime-cnb/archive/v0.0.25.tar.gz"
