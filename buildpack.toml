@@ -17,6 +17,15 @@ stacks = ["org.cloudfoundry.stacks.cflinuxfs3","io.buildpacks.stacks.bionic"]
 uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.pip/org.cloudfoundry.pip-0.0.24-any-stack-f9d3df94.tgz"
 version = "0.0.24"
 
+[[metadata.dependencies]]
+id = "org.cloudfoundry.python-runtime"
+sha256 = "42312675c44683649c8069a005d3b33731af814df6e686ac8e5945fa98bbca60"
+source = "https://github.com/cloudfoundry/python-runtime-cnb/archive/v0.0.25.tar.gz"
+source_sha256 = "9caa99142e71d93654593e62a5c57f92df30056dfe480a71b9880be88f6c9516"
+stacks = ["org.cloudfoundry.stacks.cflinuxfs3","io.buildpacks.stacks.bionic"]
+uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.python-runtime/org.cloudfoundry.python-runtime-0.0.25-any-stack-42312675.tgz"
+version = "0.0.25"
+
 [[order]]
 
 [[order.group]]
