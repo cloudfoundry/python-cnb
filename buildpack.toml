@@ -9,6 +9,15 @@ version = "{{.Version}}"
 include_files = ["buildpack.toml"]
 
 [[metadata.dependencies]]
+id = "org.cloudfoundry.conda"
+sha256 = "a04ecdab7ff89e7dac088b8500711d948b0c2ac648dbc348e9e496d128775ba7"
+source = "https://github.com/cloudfoundry/conda-cnb/archive/v0.0.16.tar.gz"
+source_sha256 = "349e4861f3841d6c5b2e70c8c2186c3246926e7b28c40a05c485d7e9919283bc"
+stacks = ["org.cloudfoundry.stacks.cflinuxfs3","io.buildpacks.stacks.bionic"]
+uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.conda/org.cloudfoundry.conda-0.0.16-any-stack-a04ecdab.tgz"
+version = "0.0.16"
+
+[[metadata.dependencies]]
 id = "org.cloudfoundry.pip"
 sha256 = "f9d3df9451daee690e0a0a25d8d839b5d4da45ccf84143d1c8786fd105474fe2"
 source = "https://github.com/cloudfoundry/pip-cnb/archive/v0.0.24.tar.gz"
