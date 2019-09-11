@@ -1,0 +1,30 @@
+api = "0.2"
+
+[buildpack]
+id = "org.cloudfoundry.python"
+name = "Python Buildpack"
+version = "{{.Version}}"
+
+[metadata]
+include_files = ["buildpack.toml"]
+
+[[order]]
+[[order.group]]
+id = "org.cloudfoundry.python-runtime"
+version = "0.0.25"
+
+[[order.group]]
+id = "org.cloudfoundry.pipenv"
+optional = true
+version = "0.0.15"
+
+[[order.group]]
+id = "org.cloudfoundry.pip"
+optional = true
+version = "0.0.24"
+
+[[order]]
+[[order.group]]
+id = "org.cloudfoundry.conda"
+version = "0.0.16"
+
