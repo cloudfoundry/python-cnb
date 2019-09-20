@@ -37,18 +37,18 @@ version = "0.0.20"
 
 [[metadata.dependencies]]
 id = "org.cloudfoundry.python-runtime"
-sha256 = "d5a60ccf2fe426295ac5cc971f6f1b25dd17531d2a97b8c0fc29c32e59f1651e"
-source = "https://github.com/cloudfoundry/python-runtime-cnb/archive/v0.0.31.tar.gz"
-source_sha256 = "a0086e72ffad084901b4eea538b0762601b4af7051df644bfb63918c7205d94c"
-stacks = ["org.cloudfoundry.stacks.cflinuxfs3","io.buildpacks.stacks.bionic"]
-uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.python-runtime/org.cloudfoundry.python-runtime-0.0.31-any-stack-d5a60ccf.tgz"
-version = "0.0.31"
+sha256 = "b0b34256f154c88215309cedecfd81cdb75165d88ecb2733f6038d11ee1aa344"
+source = "https://github.com/cloudfoundry/python-runtime-cnb/archive/v0.0.32.tar.gz"
+source_sha256 = "da827c9fc7addb1fcbed8f86d64fe9a0d285aa5086a93c7eaf3c764ad1130573"
+stacks = ["org.cloudfoundry.stacks.cflinuxfs3","io.buildpacks.stacks.bionic","org.cloudfoundry.stacks.tiny"]
+uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.python-runtime/org.cloudfoundry.python-runtime-0.0.32-any-stack-b0b34256.tgz"
+version = "0.0.32"
 
 [[order]]
 
 [[order.group]]
 id = "org.cloudfoundry.python-runtime"
-version = "0.0.31"
+version = "0.0.32"
 
 [[order.group]]
 id = "org.cloudfoundry.pipenv"
