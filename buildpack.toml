@@ -19,12 +19,12 @@ version = "0.0.22"
 
 [[metadata.dependencies]]
 id = "org.cloudfoundry.pip"
-sha256 = "238ac28199ea1de73dd5b70a72eb9c6ee8093b0b677aa742520c594b287a9a61"
-source = "https://github.com/cloudfoundry/pip-cnb/archive/v0.0.32.tar.gz"
-source_sha256 = "347b5113017a2e17e8bf580e6f09ddc87386c405fa23675bd1322fa3683f85a7"
-stacks = ["org.cloudfoundry.stacks.cflinuxfs3","io.buildpacks.stacks.bionic"]
-uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.pip/org.cloudfoundry.pip-0.0.32-any-stack-238ac281.tgz"
-version = "0.0.32"
+sha256 = "73bfde5a82d3fe72f23ce77a6c1f04d21f6e61371f5c5e65e012c253ce80bbc4"
+source = "https://github.com/cloudfoundry/pip-cnb/archive/v0.0.33.tar.gz"
+source_sha256 = "92dbf6d556437bc22c59010f3d511277ab997feab232f53336aa5ceee344e89e"
+stacks = ["org.cloudfoundry.stacks.cflinuxfs3","io.buildpacks.stacks.bionic","org.cloudfoundry.stacks.tiny"]
+uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.pip/org.cloudfoundry.pip-0.0.33-any-stack-73bfde5a.tgz"
+version = "0.0.33"
 
 [[metadata.dependencies]]
 id = "org.cloudfoundry.pipenv"
@@ -58,7 +58,7 @@ version = "0.0.20"
 [[order.group]]
 id = "org.cloudfoundry.pip"
 optional = true
-version = "0.0.32"
+version = "0.0.33"
 
 [[order]]
 
