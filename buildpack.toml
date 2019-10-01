@@ -10,12 +10,12 @@ include_files = ["buildpack.toml"]
 
 [[metadata.dependencies]]
 id = "org.cloudfoundry.conda"
-sha256 = "fecb6db22cdafb97b3135477dba320547ffb3c2ce9371c381b2b1cd8bfd18286"
-source = "https://github.com/cloudfoundry/conda-cnb/archive/v0.0.24.tar.gz"
-source_sha256 = "3237991a9a2daf4f44be815f487b570c4104cdd705fce49fcba3c107dd6909b2"
+sha256 = "e6e655470a69c2fcd25867f89593acdfee0d0cb126df8b5c5bf15bef103b60d6"
+source = "https://github.com/cloudfoundry/conda-cnb/archive/v0.0.25.tar.gz"
+source_sha256 = "70cbb3c8d5f39bdfb15a39c094f0007f788a15613112ba68ddb0d79509c3af92"
 stacks = ["org.cloudfoundry.stacks.cflinuxfs3","io.buildpacks.stacks.bionic","org.cloudfoundry.stacks.tiny"]
-uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.conda/org.cloudfoundry.conda-0.0.24-any-stack-fecb6db2.tgz"
-version = "0.0.24"
+uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.conda/org.cloudfoundry.conda-0.0.25-any-stack-e6e65547.tgz"
+version = "0.0.25"
 
 [[metadata.dependencies]]
 id = "org.cloudfoundry.pip"
@@ -64,4 +64,4 @@ version = "0.0.35"
 
 [[order.group]]
 id = "org.cloudfoundry.conda"
-version = "0.0.24"
+version = "0.0.25"
