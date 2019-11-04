@@ -73,21 +73,21 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.pipenv"
-    sha256 = "ea3899cc415f9a6af974bcd971adadf1a4fff0a735083c831f2ff7a1340000a0"
-    source = "https://github.com/cloudfoundry/pipenv-cnb/archive/v0.0.42.tar.gz"
-    source_sha256 = "e543f674981ec24b9532531b3754d77c17b5e5d4f59addac52be70c81ab26486"
+    sha256 = "f1e57c8f1978f99d662fd9958201e3969bcb8469dd991425ad80d2c52f08870f"
+    source = "https://github.com/cloudfoundry/pipenv-cnb/archive/v0.0.43.tar.gz"
+    source_sha256 = "d4c09d6639e81066c694dadc43c0bcfcf40e2f7b440f9a0c9589a23eac509554"
     stacks = ["io.buildpacks.stacks.bionic"]
-    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.pipenv/org.cloudfoundry.pipenv-0.0.42-any-stack-ea3899cc.tgz"
-    version = "0.0.42"
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.pipenv/org.cloudfoundry.pipenv-0.0.43-any-stack-f1e57c8f.tgz"
+    version = "0.0.43"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.pipenv"
-    sha256 = "ea3899cc415f9a6af974bcd971adadf1a4fff0a735083c831f2ff7a1340000a0"
-    source = "https://github.com/cloudfoundry/pipenv-cnb/archive/v0.0.42.tar.gz"
-    source_sha256 = "e543f674981ec24b9532531b3754d77c17b5e5d4f59addac52be70c81ab26486"
+    sha256 = "f1e57c8f1978f99d662fd9958201e3969bcb8469dd991425ad80d2c52f08870f"
+    source = "https://github.com/cloudfoundry/pipenv-cnb/archive/v0.0.43.tar.gz"
+    source_sha256 = "d4c09d6639e81066c694dadc43c0bcfcf40e2f7b440f9a0c9589a23eac509554"
     stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.pipenv/org.cloudfoundry.pipenv-0.0.42-any-stack-ea3899cc.tgz"
-    version = "0.0.42"
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.pipenv/org.cloudfoundry.pipenv-0.0.43-any-stack-f1e57c8f.tgz"
+    version = "0.0.43"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.python-runtime"
@@ -125,15 +125,15 @@ api = "0.2"
 [[order]]
 
   [[order.group]]
-    id = "org.cloudfoundry.conda"
-    version = "0.0.37"
-
-
-  [[order.Group]]
     id = "org.cloudfoundry.pip"
     version = "0.0.57"
 
 [[order]]
+
+  [[order.group]]
+    id = "org.cloudfoundry.conda"
+    version = "0.0.37"
+
 
   [[order.group]]
     id = "org.cloudfoundry.conda"
