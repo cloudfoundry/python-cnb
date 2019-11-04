@@ -13,7 +13,7 @@ api = "0.2"
     sha256 = "31b552022352114e24e24b0a790889bb7a612fffed76a9da469756ea82414d67"
     source = "https://github.com/cloudfoundry/conda-cnb/archive/v0.0.37.tar.gz"
     source_sha256 = "0b0a82341896e9690de2c9d1f625bfed086fea3e7849a86f790e2e69daee1ed0"
-    Stacks = ["io.buildpacks.stacks.bionic"]
+    stacks = ["io.buildpacks.stacks.bionic"]
     uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.conda/org.cloudfoundry.conda-0.0.37-any-stack-31b55202.tgz"
     version = "0.0.37"
 
@@ -46,21 +46,21 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.pip"
-    sha256 = "d66fc0a688aacca3f3eeb091338510800cb036b717c95f6e8eb86ee87376328f"
-    source = "https://github.com/cloudfoundry/pip-cnb/archive/v0.0.57.tar.gz"
-    source_sha256 = "b4b8fd78f53d0ae1ec1b6a879c51e4f6dc8b3e3319d68ae59ea3b4edd67c6758"
+    sha256 = "1581f1892b6f6e3d7babe060038bc03755b3285058118837b5a83824aabebdbd"
+    source = "https://github.com/cloudfoundry/pip-cnb/archive/v0.0.58.tar.gz"
+    source_sha256 = "ad7da680395a830e13b03b667d3f4bbceeb32da670d412d05d5529dcf7aa4a2c"
     stacks = ["io.buildpacks.stacks.bionic"]
-    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.pip/org.cloudfoundry.pip-0.0.57-any-stack-d66fc0a6.tgz"
-    version = "0.0.57"
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.pip/org.cloudfoundry.pip-0.0.58-any-stack-1581f189.tgz"
+    version = "0.0.58"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.pip"
-    sha256 = "d66fc0a688aacca3f3eeb091338510800cb036b717c95f6e8eb86ee87376328f"
-    source = "https://github.com/cloudfoundry/pip-cnb/archive/v0.0.57.tar.gz"
-    source_sha256 = "b4b8fd78f53d0ae1ec1b6a879c51e4f6dc8b3e3319d68ae59ea3b4edd67c6758"
+    sha256 = "1581f1892b6f6e3d7babe060038bc03755b3285058118837b5a83824aabebdbd"
+    source = "https://github.com/cloudfoundry/pip-cnb/archive/v0.0.58.tar.gz"
+    source_sha256 = "ad7da680395a830e13b03b667d3f4bbceeb32da670d412d05d5529dcf7aa4a2c"
     stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.pip/org.cloudfoundry.pip-0.0.57-any-stack-d66fc0a6.tgz"
-    version = "0.0.57"
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.pip/org.cloudfoundry.pip-0.0.58-any-stack-1581f189.tgz"
+    version = "0.0.58"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.pipenv"
@@ -119,12 +119,15 @@ api = "0.2"
 [[order]]
 
   [[order.group]]
-    id = "org.cloudfoundry.python-runtime"
-    version = "0.0.60"
+    id = "org.cloudfoundry.pip"
+    version = "0.0.58"
+
+[[order]]
 
   [[order.group]]
-    id = "org.cloudfoundry.pipenv"
-    version = "0.0.42"
+    id = "org.cloudfoundry.conda"
+    version = "0.0.37"
+
 
   [[order.Group]]
     id = "org.cloudfoundry.pip"
