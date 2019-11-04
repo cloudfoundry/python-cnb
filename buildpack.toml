@@ -67,27 +67,27 @@ API = "0.2"
     SHA256 = "5a95f48f7866623dc2cff2270f3dad14a1e7eb5b24bd6f8fad328784dc076acd"
     Source = "https://github.com/cloudfoundry/pipenv-cnb/archive/v0.0.41.tar.gz"
     source_sha256 = "45d6b836a03a85200b938e10d4507a60c4041b9715e63d6576fc3681b68a083b"
-    Stacks = ["io.buildpacks.stacks.bionic"]
-    URI = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.pipenv/org.cloudfoundry.pipenv-0.0.41-any-stack-5a95f48f.tgz"
-    Version = "0.0.41"
-
-  [[Metadata.Dependencies]]
-    ID = "org.cloudfoundry.pipenv"
-    SHA256 = "5a95f48f7866623dc2cff2270f3dad14a1e7eb5b24bd6f8fad328784dc076acd"
-    Source = "https://github.com/cloudfoundry/pipenv-cnb/archive/v0.0.41.tar.gz"
-    source_sha256 = "45d6b836a03a85200b938e10d4507a60c4041b9715e63d6576fc3681b68a083b"
-    Stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
-    URI = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.pipenv/org.cloudfoundry.pipenv-0.0.41-any-stack-5a95f48f.tgz"
-    Version = "0.0.41"
-
-  [[Metadata.Dependencies]]
-    ID = "org.cloudfoundry.pipenv"
-    SHA256 = "5a95f48f7866623dc2cff2270f3dad14a1e7eb5b24bd6f8fad328784dc076acd"
-    Source = "https://github.com/cloudfoundry/pipenv-cnb/archive/v0.0.41.tar.gz"
-    source_sha256 = "45d6b836a03a85200b938e10d4507a60c4041b9715e63d6576fc3681b68a083b"
     Stacks = ["org.cloudfoundry.stacks.tiny"]
     URI = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.pipenv/org.cloudfoundry.pipenv-0.0.41-any-stack-5a95f48f.tgz"
     Version = "0.0.41"
+
+  [[Metadata.Dependencies]]
+    ID = "org.cloudfoundry.pipenv"
+    SHA256 = "ea3899cc415f9a6af974bcd971adadf1a4fff0a735083c831f2ff7a1340000a0"
+    Source = "https://github.com/cloudfoundry/pipenv-cnb/archive/v0.0.42.tar.gz"
+    source_sha256 = "e543f674981ec24b9532531b3754d77c17b5e5d4f59addac52be70c81ab26486"
+    Stacks = ["io.buildpacks.stacks.bionic"]
+    URI = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.pipenv/org.cloudfoundry.pipenv-0.0.42-any-stack-ea3899cc.tgz"
+    Version = "0.0.42"
+
+  [[Metadata.Dependencies]]
+    ID = "org.cloudfoundry.pipenv"
+    SHA256 = "ea3899cc415f9a6af974bcd971adadf1a4fff0a735083c831f2ff7a1340000a0"
+    Source = "https://github.com/cloudfoundry/pipenv-cnb/archive/v0.0.42.tar.gz"
+    source_sha256 = "e543f674981ec24b9532531b3754d77c17b5e5d4f59addac52be70c81ab26486"
+    Stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
+    URI = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.pipenv/org.cloudfoundry.pipenv-0.0.42-any-stack-ea3899cc.tgz"
+    Version = "0.0.42"
 
   [[Metadata.Dependencies]]
     ID = "org.cloudfoundry.python-runtime"
@@ -124,7 +124,7 @@ API = "0.2"
 
   [[order.Group]]
     ID = "org.cloudfoundry.pipenv"
-    Version = "0.0.41"
+    Version = "0.0.42"
 
   [[order.Group]]
     ID = "org.cloudfoundry.pip"
