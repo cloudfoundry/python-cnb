@@ -13,27 +13,27 @@ api = "0.2"
     sha256 = "31b552022352114e24e24b0a790889bb7a612fffed76a9da469756ea82414d67"
     source = "https://github.com/cloudfoundry/conda-cnb/archive/v0.0.37.tar.gz"
     source_sha256 = "0b0a82341896e9690de2c9d1f625bfed086fea3e7849a86f790e2e69daee1ed0"
-    stacks = ["io.buildpacks.stacks.bionic"]
-    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.conda/org.cloudfoundry.conda-0.0.37-any-stack-31b55202.tgz"
-    version = "0.0.37"
-
-  [[metadata.dependencies]]
-    id = "org.cloudfoundry.conda"
-    sha256 = "31b552022352114e24e24b0a790889bb7a612fffed76a9da469756ea82414d67"
-    source = "https://github.com/cloudfoundry/conda-cnb/archive/v0.0.37.tar.gz"
-    source_sha256 = "0b0a82341896e9690de2c9d1f625bfed086fea3e7849a86f790e2e69daee1ed0"
-    stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.conda/org.cloudfoundry.conda-0.0.37-any-stack-31b55202.tgz"
-    version = "0.0.37"
-
-  [[metadata.dependencies]]
-    id = "org.cloudfoundry.conda"
-    sha256 = "31b552022352114e24e24b0a790889bb7a612fffed76a9da469756ea82414d67"
-    source = "https://github.com/cloudfoundry/conda-cnb/archive/v0.0.37.tar.gz"
-    source_sha256 = "0b0a82341896e9690de2c9d1f625bfed086fea3e7849a86f790e2e69daee1ed0"
     stacks = ["org.cloudfoundry.stacks.tiny"]
     uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.conda/org.cloudfoundry.conda-0.0.37-any-stack-31b55202.tgz"
     version = "0.0.37"
+
+  [[metadata.dependencies]]
+    id = "org.cloudfoundry.conda"
+    sha256 = "2442f6b29f8eb652b0ddd56409e88d55b546a5c5c53d788270dd528dfbb8ce74"
+    source = "https://github.com/cloudfoundry/conda-cnb/archive/v0.0.38.tar.gz"
+    source_sha256 = "1976cfa8b4e058aab64b77190c2ae91f167d32f1d98bc7eeacf36a3874fb86a9"
+    stacks = ["io.buildpacks.stacks.bionic"]
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.conda/org.cloudfoundry.conda-0.0.38-any-stack-2442f6b2.tgz"
+    version = "0.0.38"
+
+  [[metadata.dependencies]]
+    id = "org.cloudfoundry.conda"
+    sha256 = "2442f6b29f8eb652b0ddd56409e88d55b546a5c5c53d788270dd528dfbb8ce74"
+    source = "https://github.com/cloudfoundry/conda-cnb/archive/v0.0.38.tar.gz"
+    source_sha256 = "1976cfa8b4e058aab64b77190c2ae91f167d32f1d98bc7eeacf36a3874fb86a9"
+    stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.conda/org.cloudfoundry.conda-0.0.38-any-stack-2442f6b2.tgz"
+    version = "0.0.38"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.pip"
@@ -132,9 +132,9 @@ api = "0.2"
 
   [[order.group]]
     id = "org.cloudfoundry.conda"
-    version = "0.0.37"
-
+    version = "0.0.38"
 
   [[order.group]]
     id = "org.cloudfoundry.conda"
-    version = "0.0.37"
+    version = "0.0.38"
+
