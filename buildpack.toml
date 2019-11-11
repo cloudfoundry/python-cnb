@@ -100,21 +100,21 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.python-runtime"
-    sha256 = "d6ada9c8c90488c6bca7f0e83c122c0106e53c05f871019332b599eb8a78a24b"
-    source = "https://github.com/cloudfoundry/python-runtime-cnb/archive/v0.0.62.tar.gz"
-    source_sha256 = "0b4f516dec3bba9235cf6bd6af7a5402ab90c5d62737acd2fa7ba4943c433180"
+    sha256 = "ce123fb12eec41c673cce6ee239a2d360a2f8fd9ae178bf747cc8452853cf5b9"
+    source = "https://github.com/cloudfoundry/python-runtime-cnb/archive/v0.0.63.tar.gz"
+    source_sha256 = "2e620e1cffd350a0cdd47083b01229418994fc45a9c3b8ffa43a47487da8dd2e"
     stacks = ["io.buildpacks.stacks.bionic"]
-    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.python-runtime/org.cloudfoundry.python-runtime-0.0.62-any-stack-d6ada9c8.tgz"
-    version = "0.0.62"
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.python-runtime/org.cloudfoundry.python-runtime-0.0.63-any-stack-ce123fb1.tgz"
+    version = "0.0.63"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.python-runtime"
-    sha256 = "d6ada9c8c90488c6bca7f0e83c122c0106e53c05f871019332b599eb8a78a24b"
-    source = "https://github.com/cloudfoundry/python-runtime-cnb/archive/v0.0.62.tar.gz"
-    source_sha256 = "0b4f516dec3bba9235cf6bd6af7a5402ab90c5d62737acd2fa7ba4943c433180"
+    sha256 = "ce123fb12eec41c673cce6ee239a2d360a2f8fd9ae178bf747cc8452853cf5b9"
+    source = "https://github.com/cloudfoundry/python-runtime-cnb/archive/v0.0.63.tar.gz"
+    source_sha256 = "2e620e1cffd350a0cdd47083b01229418994fc45a9c3b8ffa43a47487da8dd2e"
     stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.python-runtime/org.cloudfoundry.python-runtime-0.0.62-any-stack-d6ada9c8.tgz"
-    version = "0.0.62"
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.python-runtime/org.cloudfoundry.python-runtime-0.0.63-any-stack-ce123fb1.tgz"
+    version = "0.0.63"
 
 [[order]]
 
