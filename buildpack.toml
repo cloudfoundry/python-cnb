@@ -19,21 +19,21 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.conda"
-    sha256 = "06cc58b3c1b71593f5eece82dae855bbee58e0a5fd1bbe98dee5c91c7c7cc346"
-    source = "https://github.com/cloudfoundry/conda-cnb/archive/v0.0.40.tar.gz"
-    source_sha256 = "1c6ad686cb8dca73c7cbd855a1137eaea370375528ead735e0fe0d9f1dd9ecd1"
+    sha256 = "88519fdb8933f70f08d61e26c6e52187dc9f6e345f5a22c2eaf6b5c991c549ec"
+    source = "https://github.com/cloudfoundry/conda-cnb/archive/v0.0.41.tar.gz"
+    source_sha256 = "cc44885c50598e692b46dd3cbaca1a8586d353394baca277963233912688e1cf"
     stacks = ["io.buildpacks.stacks.bionic"]
-    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.conda/org.cloudfoundry.conda-0.0.40-any-stack-06cc58b3.tgz"
-    version = "0.0.40"
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.conda/org.cloudfoundry.conda-0.0.41-any-stack-88519fdb.tgz"
+    version = "0.0.41"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.conda"
-    sha256 = "06cc58b3c1b71593f5eece82dae855bbee58e0a5fd1bbe98dee5c91c7c7cc346"
-    source = "https://github.com/cloudfoundry/conda-cnb/archive/v0.0.40.tar.gz"
-    source_sha256 = "1c6ad686cb8dca73c7cbd855a1137eaea370375528ead735e0fe0d9f1dd9ecd1"
+    sha256 = "88519fdb8933f70f08d61e26c6e52187dc9f6e345f5a22c2eaf6b5c991c549ec"
+    source = "https://github.com/cloudfoundry/conda-cnb/archive/v0.0.41.tar.gz"
+    source_sha256 = "cc44885c50598e692b46dd3cbaca1a8586d353394baca277963233912688e1cf"
     stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.conda/org.cloudfoundry.conda-0.0.40-any-stack-06cc58b3.tgz"
-    version = "0.0.40"
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.conda/org.cloudfoundry.conda-0.0.41-any-stack-88519fdb.tgz"
+    version = "0.0.41"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.pip"
@@ -132,9 +132,9 @@ api = "0.2"
 
   [[order.group]]
     id = "org.cloudfoundry.conda"
-    version = "0.0.40"
+    version = "0.0.41"
 
   [[order.group]]
     id = "org.cloudfoundry.conda"
-    version = "0.0.40"
+    version = "0.0.41"
 
