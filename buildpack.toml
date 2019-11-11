@@ -46,21 +46,21 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.pip"
-    sha256 = "6bbf7d915b70f5c891a30175b0b8877c8520dc005866d0490cfdc678d61b49c1"
-    source = "https://github.com/cloudfoundry/pip-cnb/archive/v0.0.60.tar.gz"
-    source_sha256 = "797f0919080dbda4594b91458713a1cd647c659c53c5e03743cad748074ce48e"
+    sha256 = "10db078debb44c57fd137343cbc3d03d289a4a4042d9aa1edbc20ff3e4121856"
+    source = "https://github.com/cloudfoundry/pip-cnb/archive/v0.0.62.tar.gz"
+    source_sha256 = "960caac14d7832f1ec3df1c982596ed497874b4d191be2152f3407007a556230"
     stacks = ["io.buildpacks.stacks.bionic"]
-    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.pip/org.cloudfoundry.pip-0.0.60-any-stack-6bbf7d91.tgz"
-    version = "0.0.60"
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.pip/org.cloudfoundry.pip-0.0.62-any-stack-10db078d.tgz"
+    version = "0.0.62"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.pip"
-    sha256 = "6bbf7d915b70f5c891a30175b0b8877c8520dc005866d0490cfdc678d61b49c1"
-    source = "https://github.com/cloudfoundry/pip-cnb/archive/v0.0.60.tar.gz"
-    source_sha256 = "797f0919080dbda4594b91458713a1cd647c659c53c5e03743cad748074ce48e"
+    sha256 = "10db078debb44c57fd137343cbc3d03d289a4a4042d9aa1edbc20ff3e4121856"
+    source = "https://github.com/cloudfoundry/pip-cnb/archive/v0.0.62.tar.gz"
+    source_sha256 = "960caac14d7832f1ec3df1c982596ed497874b4d191be2152f3407007a556230"
     stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.pip/org.cloudfoundry.pip-0.0.60-any-stack-6bbf7d91.tgz"
-    version = "0.0.60"
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.pip/org.cloudfoundry.pip-0.0.62-any-stack-10db078d.tgz"
+    version = "0.0.62"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.pipenv"
@@ -120,13 +120,13 @@ api = "0.2"
 
   [[order.group]]
     id = "org.cloudfoundry.pip"
-    version = "0.0.60"
+    version = "0.0.62"
 
 [[order]]
 
   [[order.group]]
     id = "org.cloudfoundry.pip"
-    version = "0.0.60"
+    version = "0.0.62"
 
 [[order]]
 
