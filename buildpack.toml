@@ -19,12 +19,12 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.pip"
-    sha256 = "10db078debb44c57fd137343cbc3d03d289a4a4042d9aa1edbc20ff3e4121856"
-    source = "https://github.com/cloudfoundry/pip-cnb/archive/v0.0.62.tar.gz"
-    source_sha256 = "960caac14d7832f1ec3df1c982596ed497874b4d191be2152f3407007a556230"
+    sha256 = "11e0c97c567594ac83f4eae61400a94ad7d78c49ba1c0d890233c297887367a6"
+    source = "https://github.com/cloudfoundry/pip-cnb/archive/v0.0.63.tar.gz"
+    source_sha256 = "35f39c4eb414d5530b171bca5c183a6a37ed93f2c2e66269d0ccc12fbae7e507"
     stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.pip/org.cloudfoundry.pip-0.0.62-any-stack-10db078d.tgz"
-    version = "0.0.62"
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.pip/org.cloudfoundry.pip-0.0.63-any-stack-11e0c97c.tgz"
+    version = "0.0.63"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.pipenv"
@@ -57,7 +57,7 @@ api = "0.2"
 
   [[order.group]]
     id = "org.cloudfoundry.pip"
-    version = "0.0.62"
+    version = "0.0.63"
     optional = true
 
 [[order]]
