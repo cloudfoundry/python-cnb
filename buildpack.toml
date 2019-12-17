@@ -37,18 +37,18 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.python-runtime"
-    sha256 = "22186993bc302558897f9b83a14fd8e21f8410e7ba9221777be6888958403a33"
-    source = "https://github.com/cloudfoundry/python-runtime-cnb/archive/v0.0.72.tar.gz"
-    source_sha256 = "c5b54d0c180001f529854e8ef2471d726c7876f402365c186073d6ed5bfb404e"
+    sha256 = "71e53fff0a6b2b2c158fcba8b3ad3a9947fe25223639738f6bb59d95c5f6678f"
+    source = "https://github.com/cloudfoundry/python-runtime-cnb/archive/v0.0.73.tar.gz"
+    source_sha256 = "51051fa94b05ec35b2bb5008fe15172a18c43390c3bd1c597c15c13e7531be22"
     stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.python-runtime/org.cloudfoundry.python-runtime-0.0.72-any-stack-22186993.tgz"
-    version = "0.0.72"
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.python-runtime/org.cloudfoundry.python-runtime-0.0.73-any-stack-71e53fff.tgz"
+    version = "0.0.73"
 
 [[order]]
 
   [[order.group]]
     id = "org.cloudfoundry.python-runtime"
-    version = "0.0.72"
+    version = "0.0.73"
 
   [[order.group]]
     id = "org.cloudfoundry.pipenv"
