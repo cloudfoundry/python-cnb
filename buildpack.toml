@@ -10,12 +10,12 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.conda"
-    sha256 = "91a40360720df88529be9eec60ef446b6a41b77fb178f1270ea89e19f24e6a3e"
-    source = "https://github.com/cloudfoundry/conda-cnb/archive/v0.0.54.tar.gz"
-    source_sha256 = "6bb2c8d9c25576fe6860ea2ad7b41f07c2329cede3b64c0c66e1502c56dfa5af"
+    sha256 = "8f155d149c6b038488524efb1badbc27dd0ee982d1c3c58f9c39cb8938224359"
+    source = "https://github.com/cloudfoundry/conda-cnb/archive/v0.0.55.tar.gz"
+    source_sha256 = "ccad248efdb7fb6ab9a9c63a7ee98a7482218db7b5b0897892856e178c2bb9a5"
     stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.conda/org.cloudfoundry.conda-0.0.54-any-stack-91a40360.tgz"
-    version = "0.0.54"
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.conda/org.cloudfoundry.conda-0.0.55-any-stack-8f155d14.tgz"
+    version = "0.0.55"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.pip"
@@ -64,4 +64,4 @@ api = "0.2"
 
   [[order.group]]
     id = "org.cloudfoundry.conda"
-    version = "0.0.54"
+    version = "0.0.55"
