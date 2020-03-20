@@ -28,12 +28,12 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.pipenv"
-    sha256 = "af98bcfdbab5ba1d593d91aa362716d72cdb3056052b0984534ceb03aec61d30"
-    source = "https://github.com/cloudfoundry/pipenv-cnb/archive/v0.0.83.tar.gz"
-    source_sha256 = "d355e0af2c707ffcb8846f65382ead9f46c1bf9e10c4a6a9f570009affc1441d"
+    sha256 = "e4975db4b332de0a5681204e6a4521bc0d7a56b4f55b3a4ce1359d3c79648400"
+    source = "https://github.com/cloudfoundry/pipenv-cnb/archive/v0.0.84.tar.gz"
+    source_sha256 = "6b72e085aef47a7da7ea14ef243b500ecd9abbfe8bd3113e6fac0009a16f798a"
     stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.pipenv/org.cloudfoundry.pipenv-0.0.83-cflinuxfs3-af98bcfd.tgz"
-    version = "0.0.83"
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.pipenv/org.cloudfoundry.pipenv-0.0.84-cflinuxfs3-e4975db4.tgz"
+    version = "0.0.84"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.python-runtime"
@@ -52,7 +52,7 @@ api = "0.2"
 
   [[order.group]]
     id = "org.cloudfoundry.pipenv"
-    version = "0.0.83"
+    version = "0.0.84"
     optional = true
 
   [[order.group]]
